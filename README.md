@@ -5,7 +5,8 @@ This program calculates the total fare based on the travel distance and number o
 
 ## Version 1 - Original code without input validation
 - Input: Passenger name, distance in kilometers, and number of passengers.
-- Process: Multiplies the distance by the fare rate of PHP 14 and the number of passengers.
+- Process: Multiplies the distance by the fare rate of PHP 14 and the number of passengers
+- 
 - Output: Displays the passenger's name and total fare rounded to two decimal places.
 - Does not include input validation.
 
