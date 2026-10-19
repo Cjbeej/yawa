@@ -1,9 +1,10 @@
 # Travel Fare Calculator
 FARE_RATE = 14
 
+
 name = input("Enter passenger name: ")
 
-while name == "":
+while name.strip() == "":
     print("Name cannot be empty.")
     name = input("Enter passenger name: ")
 
@@ -33,5 +34,6 @@ while True:
 
 total_fare = distance * FARE_RATE * passengers
 
+
 print("\nPassenger:", name)
-print("Total Fare: PHP", round(total_fare, 2))
+print("Total Fare: PHP", format(total_fare, ".2f"))
